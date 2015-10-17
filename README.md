@@ -1,2 +1,0 @@
-# huangstudio
-Blog pages.
