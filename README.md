@@ -1,2 +1,2 @@
 # huangstudio
-blog page.
+Blog pages.
