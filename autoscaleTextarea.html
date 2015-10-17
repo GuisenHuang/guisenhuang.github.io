@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+    <head>
+        <meta "charset=utf-8">
+        <meta content="huangstudio.org" name="author">
+        <link href="style/main.css" rel="stylesheet">
+        <link rel="stylesheet" href="style/codetheme.css">
+        <title>两种方法实现自动改变大小的 textarea.</title>
+    </head>
+    <body>
+        <article>
+            <h1>两种方法实现自动改变大小的 textarea</h1>
+            <p> 在 <a href="http://eloquentjavascript.net">EloquentJavaScript.net</a> 上看到可以自动伸缩的文本编辑区域，很是好奇，Google了一下，找到下面几个实现根据文本内容自动缩放的 textarea 的方法。(但 EloquentJavascriptava.net 里的代码编辑区并不是 textarea 元素。)</p>
+            <h3>方法一</h3>
+            <p>这个方法参考了 <a href="http://jsfiddle.net/TDAcr/">jsfiddle.net/TDAcr/</a>.</p>
+            <p>当textarea 内的文本有可能发生改变时，读取其 scrollHeight 的值，只要 scrollHeight 增大了，则增大 textarea 的高度。</p>
+            <pre>
+<code class='javascript'>function autoScale(maxHeight) {
+    var oldHeight = 0, newHeight = 0;
+    return function (event) {
+        event = event || window.event;
+        var element = event.target;
+        window.setTimeout(function() {
+          element.style.height = '';
+          newHeight = element.scrollHeight;
+          if (newHeight > oldHeight && newHeight > maxHeight) {
+          //scroll bar will apear
+            element.style.height = oldHeight + 'px';
+            element.style.overflowY = 'scroll';
+          } else {
+          //auto scale, set overflow-y to 'hidden' avoid flashing
+            element.style.height = newHeight + 'px';
+            oldHeight = newHeight;
+            element.style.overflowY = 'hidden';
+          }
+        }, 0);
+    }
+}</code>
+            </pre>
+            <p>使用方法：</p>
+            <pre><code class='html'>&lt;textarea onkeyup='autoScale(200)()'&gt;&lt;/textarea&gt;
+            </code>
+            </pre>
+            <h3>方法二</h3>
+            <p>这个方法参考了<a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLTextAreaElement#Examples">MDN 里的文档</a></p>
+            <pre><code class='javascript'>function autoScale(maxHeight) {
+    return function(event) {
+        event = event || window.event;
+        var element = event.target,
+            scrollHeight = 0,
+            clientHeight = 0;
+        element.style.height = '';
+        scrollHeight = element.scrollHeight;
+        clientHeight = element.clientHeight;
+        window.setTimeout(function() {
+            if (scrollHeight > clientHeight && scrollHeight &lt; maxHeight)
+                element.style.height = scrollHeight + 'px';
+            else if (scrollHeight >= maxHeight)
+                element.style.height = maxHeight + 'px';
+        }, 0);
+    }
+}</code></pre>
+            <p>使用方法：</p>
+            <pre><code class='html'>&lt;textarea onkeyup='autoScale(200)()'&gt;&lt;/textarea&gt;
+            </code>
+            </pre>
+        </article>
+        <script src="script/highlight.pack.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+    </body>
+</html>
