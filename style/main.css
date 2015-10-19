@@ -6,8 +6,9 @@ body {
     min-width: 300px;
     margin: 1% 10%;
     font-family: sans-serif;
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
+
 
 /*
 setup the header style
@@ -20,14 +21,14 @@ header {
 
 header h1 {
     font-family: senregular, sans-serif;
-    font-size: 3em;
+    font-size: 2em;
     margin: 0;
 }
 
 header h2 {
-    font-family: inherit;
-    font-weight: normal;
+    font-family: serif;
     font-size: 1em;
+    font-weight: normal;
     float: right;
     margin: 2em 0 0 0;
 }
@@ -99,7 +100,7 @@ article p {
 }
 
 article code, article pre {
-    margin-left: 2em;
+    margin-left: 1.2em;
 }
 
 article a[href^="http"]:link, article a[href^="http"]:visited {
@@ -113,4 +114,19 @@ article a[href^="http"]:hover, article a[href^="http"]:active {
     height: 0.5em;
     border-bottom: 1px solid blue;
     border-top: 1px solid blue;
+}
+
+
+@media screen and (max-width: 800px) {
+    body {
+        margin: 10px;
+        font-size: 1em;
+        min-width: 100px;
+    }
+    header {
+        padding: 10px;
+    }
+    article pre, article code {
+        margin: 0;
+    }
 }
