@@ -9,6 +9,10 @@ body {
     font-size: 1.1em;
 }
 
+/* css reset for ie8*/
+header, nav, section, article, aside, footer {
+    display: block;
+}
 
 /*
 setup the header style
