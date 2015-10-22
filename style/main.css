@@ -18,6 +18,7 @@ header, nav, section, article, aside, footer {
 setup the header style
 */
 header {
+    background: white;
     background-color: rgba(255, 255, 255, 0.9);
     padding: 2em;
     margin: 0;
@@ -44,6 +45,7 @@ header::after {
 }
 
 header a:link, header a:visited {
+    display: inline-block;
     text-decoration: none;
     border-bottom: 1px dotted blue;
     color: blue;
@@ -62,8 +64,9 @@ header a:hover, header a:active {
     list-style: none;
 }
 
-#main-section a:link, #main-section a:visited {
+#main-section a:link {
     display: block;
+    background: white;
     background-color: rgba(255, 255, 255, 0.9);
     margin: 2em 0;
     padding: 0.8em;
@@ -72,8 +75,14 @@ header a:hover, header a:active {
     color: black;
 }
 
+#main-section a:visited {
+    color: dimgrey;
+}
+
 #main-section a:hover {
+    background: white;
     background-color: rgba(255, 255, 255, 0.8);
+    font-weight: bolder;
 }
 
 #main-section a:active {
@@ -83,12 +92,14 @@ header a:hover, header a:active {
 
 /*setup the about page style*/
 #comming-soon {
+    background: white;
     background-color: rgba(255, 255, 255, 0.9);
     padding: 0.8em;
 }
 
 /*setup the artical page style*/
 article {
+    background: white;
     background-color: rgba(255, 255, 255, 0.9);
     margin: 0;
     padding: 0.8em;
@@ -108,6 +119,7 @@ article code, article pre {
 }
 
 article a[href^="http"]:link, article a[href^="http"]:visited {
+    display: inline-block;
     text-decoration: none;
     border-bottom: 1px dotted blue;
     color: blue;
@@ -115,6 +127,7 @@ article a[href^="http"]:link, article a[href^="http"]:visited {
 
 
 article a[href^="http"]:hover, article a[href^="http"]:active {
+    display: inline-block;
     height: 0.5em;
     border-bottom: 1px solid blue;
     border-top: 1px solid blue;
