@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+    <head>
+        <style>
+            .outer {
+              left: 50%;
+              top: 50%;
+              transform: translate(-50%, -50%);
+            }
+
+            .outer {
+              position: absolute;
+              min-height: 180px;
+              min-width: 300px;
+              width: 200px;
+              background-color: skyblue;
+              box-shadow: 0 0 18px 1px grey;
+            }
+
+            .control {
+              position: absolute;
+              width: 100%;
+              top: 0;
+              left: 0;
+              height: 25px;
+              font-size: 0.8em;
+              white-space: nowrap;
+            }
+
+            .icon {
+              float: left;
+              margin: 2px;
+              width: 16px;
+              height: 16px;
+              background-repeat: no-repeat;
+              background-image: url('http://icons.iconarchive.com/icons/designbolts/free-multimedia/16/Film-icon.png');
+            }
+
+            .title {
+              font-size: 0.8em;
+              text-align: center;
+              margin: 5px;
+            }
+
+            .close, .max, .min {
+              float: right;
+              background-repeat: no-repeat;
+              width: 30px;
+              height: 25px;
+              border: 0;
+              margin: 0;
+              outline: 0;
+              background-color: inherit;
+              background-position: 50%;
+            }
+
+            .close:hover {
+              background-color: red;
+            }
+            .max:hover {
+              background-color: lightblue;
+            }
+            .min:hover {
+              background-color: lightblue;
+            }
+
+            .inner {
+              position: absolute;
+              left: 1px;
+              bottom: 1px;
+              top: 25px;
+              right: 1px;
+              background-color: white;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class='outer'>
+          <div class='control'>
+            <span class='icon'></span>
+            <span class='title'>a title</span>
+            <button class='close'>
+              <svg width='25' height='25' style='margin-left: -2px'>
+                <polygon x='0' y='0'  points="18.717,6.697 17.303,5.283 12,10.586 6.697,5.283
+                    5.283,6.697 10.586,12 5.283,17.303 6.697,18.717 12,13.414 17.303,18.717 18.717,17.303 13.414,12 		"/>
+              </svg>
+            </button>
+            <button class='max'>
+              <svg width='25' height='25'>
+                 <rect x="2" y="5" width="12" height="12" style='stroke-width:2px;stroke:#000; fill:none'></rect>
+              </svg>
+            </button>
+            <button class='min'>
+              <svg width='25' height='25'>
+                <rect x='0' y='10' width='15' height='2'></rect>
+              </svg>
+            </button>    
+          </div>
+          <div class='inner'></div>
+        </div>    
+    </body>
+</html>
