@@ -1,109 +1,47 @@
 body {
-    width: 50%;
+    max-width: 600px;
+    margin: auto;
     padding: 1em;
-    margin: 1em auto;
 }
 
-/* setup style for header */
+h1 {
+    font-family: 'protype', monospace;
+    font-weight: bold;
+    font-size: 2em;
+    margin: 0.1em 0 0;
+}
+
 header {
-    display: block;
-    border: 1px double lightgrey;
-    border-left: 0;
-    border-right: 0;
-    margin: 0;
-    padding: 0.5em;
+    border-bottom: 1px solid black;
+    padding-bottom: 0.1em;
+    margin-bottom: 2em;
 }
 
-header h1 {
-    font-family: 'alegreya_sans';
-    font-size: 3em;
+article {
+    border: 1px solid silver;
+}
+
+h2{
+    font-family: 'protype', monospace;
     font-weight: normal;
-    margin: 0 0 0.8rem 0.2em;
-    padding: 0;
-}
-header h2 {
-    font-weight: normal;
-    font-size: 1em;
-    float: right;
+    font-size: 1.5em;
+    color: white;
     margin: 0;
-    padding: 0;
+    border-bottom: 1px dotted silver;
 }
 
-header::after {
-    content: '';
-    display: block;
-    clear: right;
-}
-
-header a:link, header a:visited {
+h2 a:link {
     text-decoration: none;
-    font-weight: bolder; 
-    color: black;
+    display: block;
 }
-
-header a:hover, header a:active {
+h2 a:hover, h2 a:active {
     text-decoration: underline;
 }
 
-/* setup style for list */
-
-#main-list {
-    list-style-type: none;
-    padding: 0;
-    margin: 3em 0;
-}
-
-#main-list li {
-    border-bottom: 1px dotted lightgrey;
-}
-
-#main-list li:first-child {
-    border-top: 1px dotted lightgrey;
-}
-
-#main-list a:link {
-    display: block;
-    padding: 0.5em 1em;
+article p {
+    padding: 1em;
     margin: 0;
-    text-decoration: none;
-    color: #106bb9;
-}
-
-#main-list a:visited {
-    color: #6ea3cf;
-}
-
-#main-list a:hover, #main-list a:active, #main-list a:focus {
-    background-color: #e6e6e6;
-    text-decoration: underline;
-    outline: 1px double white;
-}
-
-/* setup style for content page */
-.title {
-    font-weight: normal;
-    font-size: 1.8em;
-    padding-bottom: 0.2em;
-    border-bottom: 1px double lightgray;
-}
-.title~p {
-    text-indent: 2em;
-}
-.title~p:first-letter{
-    text-transform: capitalize;
-}
-/* setup style for medium screen */
-@media (max-width: 880px) {
-    body {
-        width: auto;
-        margin: 0.8em;
-        padding: 0.2em;
-    }
-}
-/* setup style for small screen */
-@media (max-width: 500px) {
-    header h1 {
-        font-size: 2em;
-        margin-left: 0.1em;
-    }
+    height: 200px;
+    overflow: hidden;
+    text-align: center;
 }
