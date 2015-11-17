@@ -1,27 +1,29 @@
 <!doctype html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <style>
 body {
   background-color: #eee;
-  width: 300px;
 }
 
-.wraper {
-  width: 90%;
-  height: 500px;
-  margin: 0 auto;
-  background-color: #fff;
+.wrapper {
+    background-color: white;
+    width: 375px;
+    height: 627px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-
-
+        
 input[type='file'] {
   display: none;
 }
 
 .head {
-  height: 120px;
+  height: 180px;
   background-color: #2269D5;
   width: 100%;
   margin-bottom: 2em;
@@ -31,7 +33,7 @@ input[type='file'] {
   height: 64px;
   width: 64px;
   position: absolute;
-  top: 50px;
+  top: 100px;
   left: 50px;
 }
 
@@ -41,14 +43,16 @@ fieldset {
 
 fieldset legend {
   color: #2269D5;
+    margin-bottom: 0.8em;
 }
 
 fieldset input {
   border: 0;
   border-bottom: 1px solid #2269D5;
   background-color: transparent;
-  margin-bottom: 0.8em;
+  margin-bottom: 1.5em;
   width: 100%;
+    outline: none;
 }
 
 fieldset {
@@ -61,7 +65,7 @@ input[type='submit'] {
   background-color: transparent;
   color: #2269D5;
   display: block;
-  padding: 0.1em;
+  padding: 0.5em;
   font-size: 1.1em;
   margin: 0 auto 0 auto;
   width: 89%;
@@ -91,7 +95,7 @@ p a:hover, p a:active {
 </head>
     
 <body>
-<div class='wraper'>
+<div class='wrapper'>
   <form>
     <div class='head'>
     <label>
@@ -114,6 +118,6 @@ p a:hover, p a:active {
     <input type='submit' value='Sign up'>
   </form>
   <p><a href=''>Already have an account <i class="fa fa-question"></i></a></p>
-</div>
+    </div>
 </body>
 </html>
