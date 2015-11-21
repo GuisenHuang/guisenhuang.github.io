@@ -1,0 +1,1 @@
+var MAX_ARTICLE_HEIGHT = 20;

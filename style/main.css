@@ -1,50 +1,135 @@
-body {
-    max-width: 600px;
-    margin: auto;
-    padding: 1em;
+nav, section, article, header {
+    display: block;
 }
 
-h1 {
-    font-family: 'protype', monospace;
-    font-weight: bold;
-    font-size: 2em;
-    margin: 0.1em 0 0;
+
+/* setup the style of body*/
+body {
+    margin: 0;
+    margin-top: 5em;
+    padding: 0;
+    font-family: sans-serif;
 }
+
+/* setup the style of header */
 
 header {
-    border-bottom: 1px solid black;
-    padding-bottom: 0.1em;
-    margin-bottom: 2em;
-}
-
-article {
-    border: 1px solid silver;
-    margin-bottom: 2em;
-    overflow: hidden;
-}
-
-h2{
-    font-family: 'protype', monospace;
-    font-weight: normal;
-    font-size: 1.5em;
-    color: white;
+    border-bottom: 1px double lightgrey;
     margin: 0;
-    border-bottom: 1px dotted silver;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 0 1em 0.1em grey;
+    background-color: #fff;
 }
 
-h2 a:link {
+header::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+header a {
+    display: inline-block;
+    float: right;
+}
+
+header h1 {
+    display: inline-block;
+    float: left;
+    font-family: serif;
+    font-size: 1em;
+    font-weight: normal;
+    font-size: 2em;
+}
+
+header h1:hover {
+/*    jump text.  see jumpText.css and jumpText.js */
+}
+
+header h1, header a {
+    height: 30px;
+    line-height: 30px;
+    padding: 8px;
+    margin: 0;
+}
+
+header a:link, header a:visited {
     text-decoration: none;
-    display: block;
-}
-h2 a:hover, h2 a:active {
-    text-decoration: underline;
+    color: darkblue;
 }
 
-article img {
-    display: block;
-    padding: 1em;
-    margin: 0 auto;
-    height: 200px;
-    overflow: hidden;
-    text-align: center;
+header a:hover {
+    animation: shaking 0.5s ease;
+}
+
+@keyframes shaking {
+    0% {
+        transform: translateY(0);
+    }
+    10% {
+        transform: translateY(0.8em);
+    }
+    30% {
+        transform: translateY(-0.6em);
+    }
+    50% {
+        transform: translateY(0.4em);
+    }
+    70% {
+        transform: translateY(-0.2em);
+    }
+    90% {
+        transform: translateY(0.1em);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/* setup the style of article*/
+article {
+    font-family: "Microsoft Yahei", 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em 1em 2em 1em;
+    line-height: 1.8;
+    text-align: justify;
+    border-bottom: 1px dotted black;
+    
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+@media (max-width: 1000px) {
+    article {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+article h2 {
+    font-size: 1.0em;
+    font-weight: bold;
+}
+
+article p {
+    margin: 0.2em;
+}
+
+article p::before {
+    content: '空格';
+    display: inline-block;
+    visibility: hidden;
+}
+
+article a:link {
+    text-decoration: none;
+    border-bottom: 1px solid blue;
+}
+
+article a:hover {
+    outline: 1px solid blue;
 }

@@ -1,0 +1,62 @@
+#makeMeSpin-1, #makeMeSpin-2, #makeMeSpin-3 {
+    display: inline-block;
+    height: 4em;
+    width: 4em;
+    line-height: 4em;
+/*    background-color: darkcyan;*/
+    color: red;
+    padding: 0.1em;
+    border-radius: 4em;
+    cursor: crosshair;
+}
+
+.makeMeSpin-1 {
+    background-color: black;
+    animation: circle 3s linear 1;
+/*    radiu: 100px*/
+/*    transform-origin: 100px 100px;*/
+}
+
+@keyframes circle {
+    from {
+        transform: rotate(0deg) translate(-100px);
+    }
+    to {
+        transform: rotate(360deg) translate(-100px);
+    }
+}
+
+.makeMeSpin-2 {
+    background-color: black;
+    animation: circle 3s linear 1;
+/*    radiu: 100px*/
+/*    transform-origin: 100px 100px;*/
+}
+
+.makeMeSpin-2 span {
+    animation: circle-inner 3s linear 1;
+}
+
+@keyframes circle-inner {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
+@keyframes new-circle {
+/*    radiu: 100px*/
+    from {
+        transform: rotate(0deg) translate(-100px) rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg) translate(-100px) rotate(-360deg);
+    }
+}
+
+.makeMeSpin-3 {
+    background-color: black;
+    animation: new-circle 3s linear 1;
+}

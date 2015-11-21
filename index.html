@@ -7,45 +7,81 @@
 <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href='style/main.css' rel='stylesheet'>
-    <link href='style/protype/stylesheet.css' rel='stylesheet'>
+    <link href='style/jumpText.css' rel='stylesheet'>
+    <link href='style/makeMeSpin.css' rel='stylesheet'>
+    <link href='style/color-brewer.css' rel='stylesheet'>
 </head>
 <body>
     <header>
-        <h1>huangstudio.org</h1>
+        <h1 class='jump-text'>Huangstudio.org</h1>
+        <a href='//github.com/guisenhuang'>Github</a>
+        <a href='//codepen.io/GuisenHuang'>Codepen</a>
     </header>
     <article>
-        <h2><a href='demo/sign-in-sign-up.html'>sign in / sign up</a></h2>
-        <p>
-            <a href='demo/sign-in-sign-up.html'>
-                <img src='img/sign-in-sign-up.jpg' alt='sign in and sign up example' height=200>
-            </a>
-        </p>
+        <h2>如何在中文段落中首行空两格</h2>
+        <p>记得在我首次接触 markdown 时，发现这个号称写作者最佳伴侣的软件竟然没有直接让段落首行空两个格的方法，便感到很气愤，拒绝继续使用之。后来才知道段落首行空两格并非必要，只要段落之间保持让眼睛舒服间距就可以了。在 CSS 中控制段落首行缩进是可以用 text-indent 属性的，而问题来了，应该选择什么单位什么长度呢？</p>
+        <p>长度 1em 常常被解析成一个字体单位大小, 在活字印刷术中, 1em 即一个字模的高度. 字模的高度被称为“em”, 起源于大写的字符“M”的宽度; 这个字母的比例被做成了方形(因此有了“EM Square”的称呼). em size是根据字模计算出的点值. 因此一个10磅的字体 em 也是 10 磅. 中文字体一般都是等宽的，并且宽度和高度差别不大, 所以使用以下代码并无不妥. </p>
+        <pre><code class='language-css'>p {
+    test-indent: 2em;
+}</code></pre>
+        <p>另外一种缩进的办法就是使用了 visibility 属性, visibility设置为 hidden 的元素的典型特征就是“占着茅坑不拉屎”, 所以以下代码特到首行空两格的效果.</p>
+        <pre><code class='language-css'>p::before {
+    content: '空格';
+    display: inline-block;
+    visibility: hidden;
+}</code></pre>
     </article>
     <article>
-        <h2><a href='demo/sign-in-sign-up2.html'>sign in / sign up (2)</a></h2>
-        <p>
-            <a href='demo/sign-in-sign-up2.html'>
-                <img src='img/sign-in-sign-up.jpg' alt='sign in and sign up example' height=200>
-            </a>
-        </p>
+        <h2>如何让一个元素做圆周运动</h2>
+        <p>如何让一个元素做圆周运动呢? <span id='makeMeSpin-1'>点我看看</span></p>
+        <p>代码如下: </p>
+    <pre><code class='language-html'>
+&lt;span class='makeMeSpin-1'&gt;点我看看&lt;/span&gt;
+&lt;style&gt;
+    .makeMeSpin-1 {
+        animation: circle 3s linear 1;
+    }
+
+    @keyframes circle {
+        from {
+            transform: rotate(0deg) translate(-100px);
+        }
+        to {
+            transform: rotate(360deg) translate(-100px);
+        }
+    }
+&lt;/style&gt;</code></pre>
+        <p>显然，这并不是很好的解决方法，如果我们要让用户在内容旋转的同时还可以方便地读到元素里的内容，必须要让文字的方向保持不变。</p>
+        <p>在旋转的元素外包裹多一层，并使之反向旋转。<span id='makeMeSpin-2'><span>点我试试</span></span></p>
+        <p>问题是解决了，但是添加了多一个没有语义元素，处女座们怎么这么容易妥协呢?</p>
+        <p>一个更优的解法: <span id='makeMeSpin-3'>再点我吧</span></p>
+        <p>代码如下: </p>
+<pre><code class='language-css'>@keyframes new-circle {
+/*    radiu: 100px*/
+    from {
+        transform: rotate(0deg) translate(-100px) rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg) translate(-100px) rotate(-360deg);
+    }
+}
+
+.makeMeSpin-3 {
+    background-color: black;
+    animation: new-circle 3s linear 1;
+}</code></pre>
+        <p>参考: <a href='http://lea.verou.me/2012/02/moving-an-element-along-a-circle/'>Moving an element along a circle.</a></p>
+        <p>Try it in codepen. <a href='http://codepen.io/GuisenHuang/pen/QjPOEO'>A Pen by huang.</a></p>
     </article>
     <article>
-        <h2><a href='demo/a-window.html'>a window</a></h2>
-        <p>
-            <a href='demo/a-window.html'>
-                <img src='img/a-window.png' alt='a window example' height=200>
-            </a>
+        <h2 class='jump-text'>如何做出文字跳动的 CSS 效果</h2>
+        <p>使用<a href='https://jschr.github.io/textillate/'> Textillate </a>做出的 CSS 文字动画效果很赞，但是它依赖三个库: <a href='http://jquery.com/'> jQuery </a>, <a href='http://daneden.me/animate/'> animate.css </a>和<a href='http://letteringjs.com/'> lettering.js </a>如果仅是想在在博客中一两处用一下炫酷的效果，而又不必要用到这些库的其他功能，那么使用原生 Javascript 写一个也不是很麻烦。</p>
+        <p>假设有这样一段代码: <pre><code class='language-html'>&lt;p class='jump-text'&gt;The quick brown fox jumps over the lazy dog&lt;/p&gt;</code></pre>
         </p>
+        <p>现在要实现这样的效果: 当鼠标悬浮上去的时候，每个文字相继地跳动。</p>
+        <p>由于要对每一个字符应用不同的样式，不得不把每一个字符包装在一个容器内，实现起来比较繁琐。想要看看效果如何吗？请把鼠标放在本页的标题上吧 :). 具体的代码和演示请移步<a href='http://codepen.io/GuisenHuang/pen/WQWEwL'>我的 Codepen</a>.</p>
     </article>
-    <article>
-        <h2><a href='demo/a-playing-tape.html'>a playing tape</a></h2>
-        <p>
-            <a href='demo/a-playing-tape.html'>
-                <img src='img/a-playing-tape.png' alt='a playing tape' height="200">
-            </a>
-        </p>
-        <p>
-            Inspired by <a href='//isux.tencent.com/20334.html'>如何做一个让人闻风丧胆的 H5</a>.
-        </p>
-    </article>
+    <script src='script/jumpText.js'></script>
+    <script src='script/makeMeSpin.js'></script>
+    <script src='script/prism.js'></script>
 </body>
