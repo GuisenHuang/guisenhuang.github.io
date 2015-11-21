@@ -39,7 +39,6 @@ header h1 {
     display: inline-block;
     float: left;
     font-family: serif;
-    font-size: 1em;
     font-weight: normal;
     font-size: 2em;
 }
@@ -107,6 +106,9 @@ article {
     article {
         width: 100%;
         box-sizing: border-box;
+    }
+    header {
+        font-size: 1em;
     }
 }
 
