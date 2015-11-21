@@ -110,6 +110,9 @@ article {
     header h1{
         font-size: 1.2em;
     }
+    header a {
+        display: none;
+    }
 }
 
 article h2 {
