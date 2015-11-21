@@ -6,6 +6,10 @@ body {
   font-family: sans-serif;
 }
 
+.jump-letter {
+    display: inline-block;
+}
+
 .jump-text:hover .jump-letter:nth-of-type(1) {
   -webkit-animation: jump 0.2s 0.2s;
   -moz-animation: jump 0.2s 0.2s;
