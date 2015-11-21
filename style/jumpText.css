@@ -11,6 +11,7 @@ body {
   -moz-animation: jump 0.2s 0.2s;
   -ms-animation: jump 0.2s 0.2s;
   -o-animation: jump 0.2s 0.2s;
+  animation: jump 0.2s 0.2s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(2) {
@@ -18,6 +19,7 @@ body {
   -moz-animation: jump 0.2s 0.4s;
   -ms-animation: jump 0.2s 0.4s;
   -o-animation: jump 0.2s 0.4s;
+  animation: jump 0.2s 0.4s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(3) {
@@ -25,6 +27,7 @@ body {
   -moz-animation: jump 0.2s 0.6s;
   -ms-animation: jump 0.2s 0.6s;
   -o-animation: jump 0.2s 0.6s;
+  animation: jump 0.2s 0.6s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(4) {
@@ -32,6 +35,7 @@ body {
   -moz-animation: jump 0.2s 0.8s;
   -ms-animation: jump 0.2s 0.8s;
   -o-animation: jump 0.2s 0.8s;
+  animation: jump 0.2s 0.8s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(5) {
@@ -39,6 +43,7 @@ body {
   -moz-animation: jump 0.2s 1s;
   -ms-animation: jump 0.2s 1s;
   -o-animation: jump 0.2s 1s;
+  animation: jump 0.2s 1s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(6) {
@@ -46,6 +51,7 @@ body {
   -moz-animation: jump 0.2s 1.2s;
   -ms-animation: jump 0.2s 1.2s;
   -o-animation: jump 0.2s 1.2s;
+  animation: jump 0.2s 1.2s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(7) {
@@ -53,6 +59,7 @@ body {
   -moz-animation: jump 0.2s 1.4s;
   -ms-animation: jump 0.2s 1.4s;
   -o-animation: jump 0.2s 1.4s;
+  animation: jump 0.2s 1.4s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(8) {
@@ -60,6 +67,7 @@ body {
   -moz-animation: jump 0.2s 1.6s;
   -ms-animation: jump 0.2s 1.6s;
   -o-animation: jump 0.2s 1.6s;
+  animation: jump 0.2s 1.6s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(9) {
@@ -67,6 +75,7 @@ body {
   -moz-animation: jump 0.2s 1.8s;
   -ms-animation: jump 0.2s 1.8s;
   -o-animation: jump 0.2s 1.8s;
+  animation: jump 0.2s 1.8s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(10) {
@@ -74,6 +83,7 @@ body {
   -moz-animation: jump 0.2s 2s;
   -ms-animation: jump 0.2s 2s;
   -o-animation: jump 0.2s 2s;
+  animation: jump 0.2s 2s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(11) {
@@ -81,6 +91,7 @@ body {
   -moz-animation: jump 0.2s 2.2s;
   -ms-animation: jump 0.2s 2.2s;
   -o-animation: jump 0.2s 2.2s;
+  animation: jump 0.2s 2.2s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(12) {
@@ -88,6 +99,7 @@ body {
   -moz-animation: jump 0.2s 2.4s;
   -ms-animation: jump 0.2s 2.4s;
   -o-animation: jump 0.2s 2.4s;
+  animation: jump 0.2s 2.4s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(13) {
@@ -95,6 +107,7 @@ body {
   -moz-animation: jump 0.2s 2.6s;
   -ms-animation: jump 0.2s 2.6s;
   -o-animation: jump 0.2s 2.6s;
+  animation: jump 0.2s 2.6s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(14) {
@@ -102,6 +115,7 @@ body {
   -moz-animation: jump 0.2s 2.8s;
   -ms-animation: jump 0.2s 2.8s;
   -o-animation: jump 0.2s 2.8s;
+  animation: jump 0.2s 2.8s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(15) {
@@ -109,6 +123,7 @@ body {
   -moz-animation: jump 0.2s 3s;
   -ms-animation: jump 0.2s 3s;
   -o-animation: jump 0.2s 3s;
+  animation: jump 0.2s 3s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(16) {
@@ -116,6 +131,7 @@ body {
   -moz-animation: jump 0.2s 3.2s;
   -ms-animation: jump 0.2s 3.2s;
   -o-animation: jump 0.2s 3.2s;
+  animation: jump 0.2s 3.2s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(17) {
@@ -123,6 +139,7 @@ body {
   -moz-animation: jump 0.2s 3.4s;
   -ms-animation: jump 0.2s 3.4s;
   -o-animation: jump 0.2s 3.4s;
+  animation: jump 0.2s 3.4s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(18) {
@@ -130,6 +147,7 @@ body {
   -moz-animation: jump 0.2s 3.6s;
   -ms-animation: jump 0.2s 3.6s;
   -o-animation: jump 0.2s 3.6s;
+  animation: jump 0.2s 3.6s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(19) {
@@ -137,6 +155,7 @@ body {
   -moz-animation: jump 0.2s 3.8s;
   -ms-animation: jump 0.2s 3.8s;
   -o-animation: jump 0.2s 3.8s;
+  animation: jump 0.2s 3.8s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(20) {
@@ -144,6 +163,7 @@ body {
   -moz-animation: jump 0.2s 4s;
   -ms-animation: jump 0.2s 4s;
   -o-animation: jump 0.2s 4s;
+  animation: jump 0.2s 4s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(21) {
@@ -151,6 +171,7 @@ body {
   -moz-animation: jump 0.2s 4.2s;
   -ms-animation: jump 0.2s 4.2s;
   -o-animation: jump 0.2s 4.2s;
+  animation: jump 0.2s 4.2s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(22) {
@@ -158,6 +179,7 @@ body {
   -moz-animation: jump 0.2s 4.4s;
   -ms-animation: jump 0.2s 4.4s;
   -o-animation: jump 0.2s 4.4s;
+  animation: jump 0.2s 4.4s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(23) {
@@ -165,6 +187,7 @@ body {
   -moz-animation: jump 0.2s 4.6s;
   -ms-animation: jump 0.2s 4.6s;
   -o-animation: jump 0.2s 4.6s;
+  animation: jump 0.2s 4.6s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(24) {
@@ -172,6 +195,7 @@ body {
   -moz-animation: jump 0.2s 4.8s;
   -ms-animation: jump 0.2s 4.8s;
   -o-animation: jump 0.2s 4.8s;
+  animation: jump 0.2s 4.8s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(25) {
@@ -179,6 +203,7 @@ body {
   -moz-animation: jump 0.2s 5s;
   -ms-animation: jump 0.2s 5s;
   -o-animation: jump 0.2s 5s;
+  animation: jump 0.2s 5s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(26) {
@@ -186,6 +211,7 @@ body {
   -moz-animation: jump 0.2s 5.2s;
   -ms-animation: jump 0.2s 5.2s;
   -o-animation: jump 0.2s 5.2s;
+  animation: jump 0.2s 5.2s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(27) {
@@ -193,6 +219,7 @@ body {
   -moz-animation: jump 0.2s 5.4s;
   -ms-animation: jump 0.2s 5.4s;
   -o-animation: jump 0.2s 5.4s;
+  animation: jump 0.2s 5.4s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(28) {
@@ -200,6 +227,7 @@ body {
   -moz-animation: jump 0.2s 5.6s;
   -ms-animation: jump 0.2s 5.6s;
   -o-animation: jump 0.2s 5.6s;
+  animation: jump 0.2s 5.6s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(29) {
@@ -207,6 +235,7 @@ body {
   -moz-animation: jump 0.2s 5.8s;
   -ms-animation: jump 0.2s 5.8s;
   -o-animation: jump 0.2s 5.8s;
+  animation: jump 0.2s 5.8s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(30) {
@@ -214,6 +243,7 @@ body {
   -moz-animation: jump 0.2s 6s;
   -ms-animation: jump 0.2s 6s;
   -o-animation: jump 0.2s 6s;
+  animation: jump 0.2s 6s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(31) {
@@ -221,6 +251,7 @@ body {
   -moz-animation: jump 0.2s 6.2s;
   -ms-animation: jump 0.2s 6.2s;
   -o-animation: jump 0.2s 6.2s;
+  animation: jump 0.2s 6.2s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(32) {
@@ -228,6 +259,7 @@ body {
   -moz-animation: jump 0.2s 6.4s;
   -ms-animation: jump 0.2s 6.4s;
   -o-animation: jump 0.2s 6.4s;
+  animation: jump 0.2s 6.4s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(33) {
@@ -235,6 +267,7 @@ body {
   -moz-animation: jump 0.2s 6.6s;
   -ms-animation: jump 0.2s 6.6s;
   -o-animation: jump 0.2s 6.6s;
+  animation: jump 0.2s 6.6s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(34) {
@@ -242,6 +275,7 @@ body {
   -moz-animation: jump 0.2s 6.8s;
   -ms-animation: jump 0.2s 6.8s;
   -o-animation: jump 0.2s 6.8s;
+  animation: jump 0.2s 6.8s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(35) {
@@ -249,6 +283,7 @@ body {
   -moz-animation: jump 0.2s 7s;
   -ms-animation: jump 0.2s 7s;
   -o-animation: jump 0.2s 7s;
+  animation: jump 0.2s 7s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(36) {
@@ -256,6 +291,7 @@ body {
   -moz-animation: jump 0.2s 7.2s;
   -ms-animation: jump 0.2s 7.2s;
   -o-animation: jump 0.2s 7.2s;
+  animation: jump 0.2s 7.2s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(37) {
@@ -263,6 +299,7 @@ body {
   -moz-animation: jump 0.2s 7.4s;
   -ms-animation: jump 0.2s 7.4s;
   -o-animation: jump 0.2s 7.4s;
+  animation: jump 0.2s 7.4s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(38) {
@@ -270,6 +307,7 @@ body {
   -moz-animation: jump 0.2s 7.6s;
   -ms-animation: jump 0.2s 7.6s;
   -o-animation: jump 0.2s 7.6s;
+  animation: jump 0.2s 7.6s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(39) {
@@ -277,6 +315,7 @@ body {
   -moz-animation: jump 0.2s 7.8s;
   -ms-animation: jump 0.2s 7.8s;
   -o-animation: jump 0.2s 7.8s;
+  animation: jump 0.2s 7.8s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(40) {
@@ -284,6 +323,7 @@ body {
   -moz-animation: jump 0.2s 8s;
   -ms-animation: jump 0.2s 8s;
   -o-animation: jump 0.2s 8s;
+  animation: jump 0.2s 8s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(41) {
@@ -291,6 +331,7 @@ body {
   -moz-animation: jump 0.2s 8.2s;
   -ms-animation: jump 0.2s 8.2s;
   -o-animation: jump 0.2s 8.2s;
+  animation: jump 0.2s 8.2s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(42) {
@@ -298,6 +339,7 @@ body {
   -moz-animation: jump 0.2s 8.4s;
   -ms-animation: jump 0.2s 8.4s;
   -o-animation: jump 0.2s 8.4s;
+  animation: jump 0.2s 8.4s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(43) {
@@ -305,6 +347,7 @@ body {
   -moz-animation: jump 0.2s 8.6s;
   -ms-animation: jump 0.2s 8.6s;
   -o-animation: jump 0.2s 8.6s;
+  animation: jump 0.2s 8.6s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(44) {
@@ -312,6 +355,7 @@ body {
   -moz-animation: jump 0.2s 8.8s;
   -ms-animation: jump 0.2s 8.8s;
   -o-animation: jump 0.2s 8.8s;
+  animation: jump 0.2s 8.8s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(45) {
@@ -319,6 +363,7 @@ body {
   -moz-animation: jump 0.2s 9s;
   -ms-animation: jump 0.2s 9s;
   -o-animation: jump 0.2s 9s;
+  animation: jump 0.2s 9s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(46) {
@@ -326,6 +371,7 @@ body {
   -moz-animation: jump 0.2s 9.2s;
   -ms-animation: jump 0.2s 9.2s;
   -o-animation: jump 0.2s 9.2s;
+  animation: jump 0.2s 9.2s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(47) {
@@ -333,6 +379,7 @@ body {
   -moz-animation: jump 0.2s 9.4s;
   -ms-animation: jump 0.2s 9.4s;
   -o-animation: jump 0.2s 9.4s;
+  animation: jump 0.2s 9.4s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(48) {
@@ -340,6 +387,7 @@ body {
   -moz-animation: jump 0.2s 9.6s;
   -ms-animation: jump 0.2s 9.6s;
   -o-animation: jump 0.2s 9.6s;
+  animation: jump 0.2s 9.6s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(49) {
@@ -347,6 +395,7 @@ body {
   -moz-animation: jump 0.2s 9.8s;
   -ms-animation: jump 0.2s 9.8s;
   -o-animation: jump 0.2s 9.8s;
+  animation: jump 0.2s 9.8s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(50) {
@@ -354,6 +403,7 @@ body {
   -moz-animation: jump 0.2s 10s;
   -ms-animation: jump 0.2s 10s;
   -o-animation: jump 0.2s 10s;
+  animation: jump 0.2s 10s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(51) {
@@ -361,6 +411,7 @@ body {
   -moz-animation: jump 0.2s 10.2s;
   -ms-animation: jump 0.2s 10.2s;
   -o-animation: jump 0.2s 10.2s;
+  animation: jump 0.2s 10.2s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(52) {
@@ -368,6 +419,7 @@ body {
   -moz-animation: jump 0.2s 10.4s;
   -ms-animation: jump 0.2s 10.4s;
   -o-animation: jump 0.2s 10.4s;
+  animation: jump 0.2s 10.4s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(53) {
@@ -375,6 +427,7 @@ body {
   -moz-animation: jump 0.2s 10.6s;
   -ms-animation: jump 0.2s 10.6s;
   -o-animation: jump 0.2s 10.6s;
+  animation: jump 0.2s 10.6s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(54) {
@@ -382,6 +435,7 @@ body {
   -moz-animation: jump 0.2s 10.8s;
   -ms-animation: jump 0.2s 10.8s;
   -o-animation: jump 0.2s 10.8s;
+  animation: jump 0.2s 10.8s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(55) {
@@ -389,6 +443,7 @@ body {
   -moz-animation: jump 0.2s 11s;
   -ms-animation: jump 0.2s 11s;
   -o-animation: jump 0.2s 11s;
+  animation: jump 0.2s 11s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(56) {
@@ -396,6 +451,7 @@ body {
   -moz-animation: jump 0.2s 11.2s;
   -ms-animation: jump 0.2s 11.2s;
   -o-animation: jump 0.2s 11.2s;
+  animation: jump 0.2s 11.2s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(57) {
@@ -403,6 +459,7 @@ body {
   -moz-animation: jump 0.2s 11.4s;
   -ms-animation: jump 0.2s 11.4s;
   -o-animation: jump 0.2s 11.4s;
+  animation: jump 0.2s 11.4s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(58) {
@@ -410,6 +467,7 @@ body {
   -moz-animation: jump 0.2s 11.6s;
   -ms-animation: jump 0.2s 11.6s;
   -o-animation: jump 0.2s 11.6s;
+  animation: jump 0.2s 11.6s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(59) {
@@ -417,6 +475,7 @@ body {
   -moz-animation: jump 0.2s 11.8s;
   -ms-animation: jump 0.2s 11.8s;
   -o-animation: jump 0.2s 11.8s;
+  animation: jump 0.2s 11.8s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(60) {
@@ -424,6 +483,7 @@ body {
   -moz-animation: jump 0.2s 12s;
   -ms-animation: jump 0.2s 12s;
   -o-animation: jump 0.2s 12s;
+  animation: jump 0.2s 12s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(61) {
@@ -431,6 +491,7 @@ body {
   -moz-animation: jump 0.2s 12.2s;
   -ms-animation: jump 0.2s 12.2s;
   -o-animation: jump 0.2s 12.2s;
+  animation: jump 0.2s 12.2s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(62) {
@@ -438,6 +499,7 @@ body {
   -moz-animation: jump 0.2s 12.4s;
   -ms-animation: jump 0.2s 12.4s;
   -o-animation: jump 0.2s 12.4s;
+  animation: jump 0.2s 12.4s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(63) {
@@ -445,6 +507,7 @@ body {
   -moz-animation: jump 0.2s 12.6s;
   -ms-animation: jump 0.2s 12.6s;
   -o-animation: jump 0.2s 12.6s;
+  animation: jump 0.2s 12.6s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(64) {
@@ -452,6 +515,7 @@ body {
   -moz-animation: jump 0.2s 12.8s;
   -ms-animation: jump 0.2s 12.8s;
   -o-animation: jump 0.2s 12.8s;
+  animation: jump 0.2s 12.8s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(65) {
@@ -459,6 +523,7 @@ body {
   -moz-animation: jump 0.2s 13s;
   -ms-animation: jump 0.2s 13s;
   -o-animation: jump 0.2s 13s;
+  animation: jump 0.2s 13s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(66) {
@@ -466,6 +531,7 @@ body {
   -moz-animation: jump 0.2s 13.2s;
   -ms-animation: jump 0.2s 13.2s;
   -o-animation: jump 0.2s 13.2s;
+  animation: jump 0.2s 13.2s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(67) {
@@ -473,6 +539,7 @@ body {
   -moz-animation: jump 0.2s 13.4s;
   -ms-animation: jump 0.2s 13.4s;
   -o-animation: jump 0.2s 13.4s;
+  animation: jump 0.2s 13.4s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(68) {
@@ -480,6 +547,7 @@ body {
   -moz-animation: jump 0.2s 13.6s;
   -ms-animation: jump 0.2s 13.6s;
   -o-animation: jump 0.2s 13.6s;
+  animation: jump 0.2s 13.6s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(69) {
@@ -487,6 +555,7 @@ body {
   -moz-animation: jump 0.2s 13.8s;
   -ms-animation: jump 0.2s 13.8s;
   -o-animation: jump 0.2s 13.8s;
+  animation: jump 0.2s 13.8s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(70) {
@@ -494,6 +563,7 @@ body {
   -moz-animation: jump 0.2s 14s;
   -ms-animation: jump 0.2s 14s;
   -o-animation: jump 0.2s 14s;
+  animation: jump 0.2s 14s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(71) {
@@ -501,6 +571,7 @@ body {
   -moz-animation: jump 0.2s 14.2s;
   -ms-animation: jump 0.2s 14.2s;
   -o-animation: jump 0.2s 14.2s;
+  animation: jump 0.2s 14.2s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(72) {
@@ -508,6 +579,7 @@ body {
   -moz-animation: jump 0.2s 14.4s;
   -ms-animation: jump 0.2s 14.4s;
   -o-animation: jump 0.2s 14.4s;
+  animation: jump 0.2s 14.4s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(73) {
@@ -515,6 +587,7 @@ body {
   -moz-animation: jump 0.2s 14.6s;
   -ms-animation: jump 0.2s 14.6s;
   -o-animation: jump 0.2s 14.6s;
+  animation: jump 0.2s 14.6s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(74) {
@@ -522,6 +595,7 @@ body {
   -moz-animation: jump 0.2s 14.8s;
   -ms-animation: jump 0.2s 14.8s;
   -o-animation: jump 0.2s 14.8s;
+  animation: jump 0.2s 14.8s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(75) {
@@ -529,6 +603,7 @@ body {
   -moz-animation: jump 0.2s 15s;
   -ms-animation: jump 0.2s 15s;
   -o-animation: jump 0.2s 15s;
+  animation: jump 0.2s 15s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(76) {
@@ -536,6 +611,7 @@ body {
   -moz-animation: jump 0.2s 15.2s;
   -ms-animation: jump 0.2s 15.2s;
   -o-animation: jump 0.2s 15.2s;
+  animation: jump 0.2s 15.2s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(77) {
@@ -543,6 +619,7 @@ body {
   -moz-animation: jump 0.2s 15.4s;
   -ms-animation: jump 0.2s 15.4s;
   -o-animation: jump 0.2s 15.4s;
+  animation: jump 0.2s 15.4s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(78) {
@@ -550,6 +627,7 @@ body {
   -moz-animation: jump 0.2s 15.6s;
   -ms-animation: jump 0.2s 15.6s;
   -o-animation: jump 0.2s 15.6s;
+  animation: jump 0.2s 15.6s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(79) {
@@ -557,6 +635,7 @@ body {
   -moz-animation: jump 0.2s 15.8s;
   -ms-animation: jump 0.2s 15.8s;
   -o-animation: jump 0.2s 15.8s;
+  animation: jump 0.2s 15.8s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(80) {
@@ -564,6 +643,7 @@ body {
   -moz-animation: jump 0.2s 16s;
   -ms-animation: jump 0.2s 16s;
   -o-animation: jump 0.2s 16s;
+  animation: jump 0.2s 16s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(81) {
@@ -571,6 +651,7 @@ body {
   -moz-animation: jump 0.2s 16.2s;
   -ms-animation: jump 0.2s 16.2s;
   -o-animation: jump 0.2s 16.2s;
+  animation: jump 0.2s 16.2s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(82) {
@@ -578,6 +659,7 @@ body {
   -moz-animation: jump 0.2s 16.4s;
   -ms-animation: jump 0.2s 16.4s;
   -o-animation: jump 0.2s 16.4s;
+  animation: jump 0.2s 16.4s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(83) {
@@ -585,6 +667,7 @@ body {
   -moz-animation: jump 0.2s 16.6s;
   -ms-animation: jump 0.2s 16.6s;
   -o-animation: jump 0.2s 16.6s;
+  animation: jump 0.2s 16.6s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(84) {
@@ -592,6 +675,7 @@ body {
   -moz-animation: jump 0.2s 16.8s;
   -ms-animation: jump 0.2s 16.8s;
   -o-animation: jump 0.2s 16.8s;
+  animation: jump 0.2s 16.8s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(85) {
@@ -599,6 +683,7 @@ body {
   -moz-animation: jump 0.2s 17s;
   -ms-animation: jump 0.2s 17s;
   -o-animation: jump 0.2s 17s;
+  animation: jump 0.2s 17s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(86) {
@@ -606,6 +691,7 @@ body {
   -moz-animation: jump 0.2s 17.2s;
   -ms-animation: jump 0.2s 17.2s;
   -o-animation: jump 0.2s 17.2s;
+  animation: jump 0.2s 17.2s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(87) {
@@ -613,6 +699,7 @@ body {
   -moz-animation: jump 0.2s 17.4s;
   -ms-animation: jump 0.2s 17.4s;
   -o-animation: jump 0.2s 17.4s;
+  animation: jump 0.2s 17.4s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(88) {
@@ -620,6 +707,7 @@ body {
   -moz-animation: jump 0.2s 17.6s;
   -ms-animation: jump 0.2s 17.6s;
   -o-animation: jump 0.2s 17.6s;
+  animation: jump 0.2s 17.6s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(89) {
@@ -627,6 +715,7 @@ body {
   -moz-animation: jump 0.2s 17.8s;
   -ms-animation: jump 0.2s 17.8s;
   -o-animation: jump 0.2s 17.8s;
+  animation: jump 0.2s 17.8s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(90) {
@@ -634,6 +723,7 @@ body {
   -moz-animation: jump 0.2s 18s;
   -ms-animation: jump 0.2s 18s;
   -o-animation: jump 0.2s 18s;
+  animation: jump 0.2s 18s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(91) {
@@ -641,6 +731,7 @@ body {
   -moz-animation: jump 0.2s 18.2s;
   -ms-animation: jump 0.2s 18.2s;
   -o-animation: jump 0.2s 18.2s;
+  animation: jump 0.2s 18.2s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(92) {
@@ -648,6 +739,7 @@ body {
   -moz-animation: jump 0.2s 18.4s;
   -ms-animation: jump 0.2s 18.4s;
   -o-animation: jump 0.2s 18.4s;
+  animation: jump 0.2s 18.4s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(93) {
@@ -655,6 +747,7 @@ body {
   -moz-animation: jump 0.2s 18.6s;
   -ms-animation: jump 0.2s 18.6s;
   -o-animation: jump 0.2s 18.6s;
+  animation: jump 0.2s 18.6s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(94) {
@@ -662,6 +755,7 @@ body {
   -moz-animation: jump 0.2s 18.8s;
   -ms-animation: jump 0.2s 18.8s;
   -o-animation: jump 0.2s 18.8s;
+  animation: jump 0.2s 18.8s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(95) {
@@ -669,6 +763,7 @@ body {
   -moz-animation: jump 0.2s 19s;
   -ms-animation: jump 0.2s 19s;
   -o-animation: jump 0.2s 19s;
+  animation: jump 0.2s 19s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(96) {
@@ -676,6 +771,7 @@ body {
   -moz-animation: jump 0.2s 19.2s;
   -ms-animation: jump 0.2s 19.2s;
   -o-animation: jump 0.2s 19.2s;
+  animation: jump 0.2s 19.2s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(97) {
@@ -683,6 +779,7 @@ body {
   -moz-animation: jump 0.2s 19.4s;
   -ms-animation: jump 0.2s 19.4s;
   -o-animation: jump 0.2s 19.4s;
+  animation: jump 0.2s 19.4s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(98) {
@@ -690,6 +787,7 @@ body {
   -moz-animation: jump 0.2s 19.6s;
   -ms-animation: jump 0.2s 19.6s;
   -o-animation: jump 0.2s 19.6s;
+  animation: jump 0.2s 19.6s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(99) {
@@ -697,6 +795,7 @@ body {
   -moz-animation: jump 0.2s 19.8s;
   -ms-animation: jump 0.2s 19.8s;
   -o-animation: jump 0.2s 19.8s;
+  animation: jump 0.2s 19.8s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(100) {
@@ -704,17 +803,18 @@ body {
   -moz-animation: jump 0.2s 20s;
   -ms-animation: jump 0.2s 20s;
   -o-animation: jump 0.2s 20s;
+  animation: jump 0.2s 20s;
 }
 
 @-webkit-keyframes jump {
   0% {
-    -webkit-transform: translateY(0);
+    transform: translateY(0);
   }
   50% {
-    -webkit-transform: translateY(-0.5em);
+    transform: translateY(-0.5em);
   }
   100% {
-    -webkit-transform: translateY(0);
+    transform: translateY(0);
   }
 }
 @keyframes jump {
