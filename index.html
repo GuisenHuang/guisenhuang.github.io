@@ -79,8 +79,10 @@
         <p>假设有这样一段代码: </p><pre><code class='language-html'>&lt;p class='jump-text'&gt;The quick brown fox jumps over the lazy dog&lt;/p&gt;</code></pre><p>现在要实现这样的效果: 当鼠标悬浮上去的时候，每个文字相继地跳动。</p>
         <p>由于要对每一个字符应用不同的样式，不得不把每一个字符包装在一个容器内，实现起来比较繁琐。想要看看效果如何吗？请把鼠标放在本页的标题上吧 :). 具体的代码和演示请移步<a href='http://codepen.io/GuisenHuang/pen/WQWEwL'>我的 Codepen</a>.</p>
         <p>补充: Mozilla Firefox 是个标准浏览器, 在 span 上应用 transform 时要在 span 上应用 </p><pre><code class='language-css'>display: inline-block;</code></pre>
-        <p>请看<a href='http://dev.w3.org/csswg/css3-transforms/'>W3 标准</a>中表述:</p>
-        <blockquote>an element whose layout is governed by the CSS box model which is either a block-level or atomic inline-level element, or whose ‘display’ property computes to ‘table-row’, ‘table-row-group’, ‘table-header-group’, ‘table-footer-group’, ‘table-cell’, or ‘table-caption’ [CSS21]</blockquote>
+        <p>请看<a href='https://drafts.csswg.org/css-transforms-1/#transformable-element'>W3 标准</a>中表述:</p>
+        <blockquote>A transformable element is an element in one of these categories:
+<p>an element whose layout is governed by the CSS box model which is either a block-level or atomic inline-level element, or whose display property computes to table-row, table-row-group, table-header-group, table-footer-group, table-cell, or table-caption [CSS21]
+    ;</p><p>an element in the SVG namespace and not governed by the CSS box model which has the attributes transform, ‘patternTransform‘ or gradientTransform [SVG11].</p></blockquote>
     </article>
     <script src='script/jumpText.js'></script>
     <script src='script/makeMeSpin.js'></script>
