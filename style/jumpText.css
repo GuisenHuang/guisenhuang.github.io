@@ -1,408 +1,723 @@
+/*
+    generate by Sass (codepen.io)
+*/
+
 body {
   font-family: sans-serif;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(1) {
-  animation: jump 0.2s 0.2s;
+  -webkit-animation: jump 0.2s 0.2s;
+  -moz-animation: jump 0.2s 0.2s;
+  -ms-animation: jump 0.2s 0.2s;
+  -o-animation: jump 0.2s 0.2s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(2) {
-  animation: jump 0.2s 0.4s;
+  -webkit-animation: jump 0.2s 0.4s;
+  -moz-animation: jump 0.2s 0.4s;
+  -ms-animation: jump 0.2s 0.4s;
+  -o-animation: jump 0.2s 0.4s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(3) {
-  animation: jump 0.2s 0.6s;
+  -webkit-animation: jump 0.2s 0.6s;
+  -moz-animation: jump 0.2s 0.6s;
+  -ms-animation: jump 0.2s 0.6s;
+  -o-animation: jump 0.2s 0.6s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(4) {
-  animation: jump 0.2s 0.8s;
+  -webkit-animation: jump 0.2s 0.8s;
+  -moz-animation: jump 0.2s 0.8s;
+  -ms-animation: jump 0.2s 0.8s;
+  -o-animation: jump 0.2s 0.8s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(5) {
-  animation: jump 0.2s 1s;
+  -webkit-animation: jump 0.2s 1s;
+  -moz-animation: jump 0.2s 1s;
+  -ms-animation: jump 0.2s 1s;
+  -o-animation: jump 0.2s 1s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(6) {
-  animation: jump 0.2s 1.2s;
+  -webkit-animation: jump 0.2s 1.2s;
+  -moz-animation: jump 0.2s 1.2s;
+  -ms-animation: jump 0.2s 1.2s;
+  -o-animation: jump 0.2s 1.2s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(7) {
-  animation: jump 0.2s 1.4s;
+  -webkit-animation: jump 0.2s 1.4s;
+  -moz-animation: jump 0.2s 1.4s;
+  -ms-animation: jump 0.2s 1.4s;
+  -o-animation: jump 0.2s 1.4s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(8) {
-  animation: jump 0.2s 1.6s;
+  -webkit-animation: jump 0.2s 1.6s;
+  -moz-animation: jump 0.2s 1.6s;
+  -ms-animation: jump 0.2s 1.6s;
+  -o-animation: jump 0.2s 1.6s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(9) {
-  animation: jump 0.2s 1.8s;
+  -webkit-animation: jump 0.2s 1.8s;
+  -moz-animation: jump 0.2s 1.8s;
+  -ms-animation: jump 0.2s 1.8s;
+  -o-animation: jump 0.2s 1.8s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(10) {
-  animation: jump 0.2s 2s;
+  -webkit-animation: jump 0.2s 2s;
+  -moz-animation: jump 0.2s 2s;
+  -ms-animation: jump 0.2s 2s;
+  -o-animation: jump 0.2s 2s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(11) {
-  animation: jump 0.2s 2.2s;
+  -webkit-animation: jump 0.2s 2.2s;
+  -moz-animation: jump 0.2s 2.2s;
+  -ms-animation: jump 0.2s 2.2s;
+  -o-animation: jump 0.2s 2.2s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(12) {
-  animation: jump 0.2s 2.4s;
+  -webkit-animation: jump 0.2s 2.4s;
+  -moz-animation: jump 0.2s 2.4s;
+  -ms-animation: jump 0.2s 2.4s;
+  -o-animation: jump 0.2s 2.4s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(13) {
-  animation: jump 0.2s 2.6s;
+  -webkit-animation: jump 0.2s 2.6s;
+  -moz-animation: jump 0.2s 2.6s;
+  -ms-animation: jump 0.2s 2.6s;
+  -o-animation: jump 0.2s 2.6s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(14) {
-  animation: jump 0.2s 2.8s;
+  -webkit-animation: jump 0.2s 2.8s;
+  -moz-animation: jump 0.2s 2.8s;
+  -ms-animation: jump 0.2s 2.8s;
+  -o-animation: jump 0.2s 2.8s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(15) {
-  animation: jump 0.2s 3s;
+  -webkit-animation: jump 0.2s 3s;
+  -moz-animation: jump 0.2s 3s;
+  -ms-animation: jump 0.2s 3s;
+  -o-animation: jump 0.2s 3s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(16) {
-  animation: jump 0.2s 3.2s;
+  -webkit-animation: jump 0.2s 3.2s;
+  -moz-animation: jump 0.2s 3.2s;
+  -ms-animation: jump 0.2s 3.2s;
+  -o-animation: jump 0.2s 3.2s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(17) {
-  animation: jump 0.2s 3.4s;
+  -webkit-animation: jump 0.2s 3.4s;
+  -moz-animation: jump 0.2s 3.4s;
+  -ms-animation: jump 0.2s 3.4s;
+  -o-animation: jump 0.2s 3.4s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(18) {
-  animation: jump 0.2s 3.6s;
+  -webkit-animation: jump 0.2s 3.6s;
+  -moz-animation: jump 0.2s 3.6s;
+  -ms-animation: jump 0.2s 3.6s;
+  -o-animation: jump 0.2s 3.6s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(19) {
-  animation: jump 0.2s 3.8s;
+  -webkit-animation: jump 0.2s 3.8s;
+  -moz-animation: jump 0.2s 3.8s;
+  -ms-animation: jump 0.2s 3.8s;
+  -o-animation: jump 0.2s 3.8s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(20) {
-  animation: jump 0.2s 4s;
+  -webkit-animation: jump 0.2s 4s;
+  -moz-animation: jump 0.2s 4s;
+  -ms-animation: jump 0.2s 4s;
+  -o-animation: jump 0.2s 4s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(21) {
-  animation: jump 0.2s 4.2s;
+  -webkit-animation: jump 0.2s 4.2s;
+  -moz-animation: jump 0.2s 4.2s;
+  -ms-animation: jump 0.2s 4.2s;
+  -o-animation: jump 0.2s 4.2s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(22) {
-  animation: jump 0.2s 4.4s;
+  -webkit-animation: jump 0.2s 4.4s;
+  -moz-animation: jump 0.2s 4.4s;
+  -ms-animation: jump 0.2s 4.4s;
+  -o-animation: jump 0.2s 4.4s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(23) {
-  animation: jump 0.2s 4.6s;
+  -webkit-animation: jump 0.2s 4.6s;
+  -moz-animation: jump 0.2s 4.6s;
+  -ms-animation: jump 0.2s 4.6s;
+  -o-animation: jump 0.2s 4.6s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(24) {
-  animation: jump 0.2s 4.8s;
+  -webkit-animation: jump 0.2s 4.8s;
+  -moz-animation: jump 0.2s 4.8s;
+  -ms-animation: jump 0.2s 4.8s;
+  -o-animation: jump 0.2s 4.8s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(25) {
-  animation: jump 0.2s 5s;
+  -webkit-animation: jump 0.2s 5s;
+  -moz-animation: jump 0.2s 5s;
+  -ms-animation: jump 0.2s 5s;
+  -o-animation: jump 0.2s 5s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(26) {
-  animation: jump 0.2s 5.2s;
+  -webkit-animation: jump 0.2s 5.2s;
+  -moz-animation: jump 0.2s 5.2s;
+  -ms-animation: jump 0.2s 5.2s;
+  -o-animation: jump 0.2s 5.2s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(27) {
-  animation: jump 0.2s 5.4s;
+  -webkit-animation: jump 0.2s 5.4s;
+  -moz-animation: jump 0.2s 5.4s;
+  -ms-animation: jump 0.2s 5.4s;
+  -o-animation: jump 0.2s 5.4s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(28) {
-  animation: jump 0.2s 5.6s;
+  -webkit-animation: jump 0.2s 5.6s;
+  -moz-animation: jump 0.2s 5.6s;
+  -ms-animation: jump 0.2s 5.6s;
+  -o-animation: jump 0.2s 5.6s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(29) {
-  animation: jump 0.2s 5.8s;
+  -webkit-animation: jump 0.2s 5.8s;
+  -moz-animation: jump 0.2s 5.8s;
+  -ms-animation: jump 0.2s 5.8s;
+  -o-animation: jump 0.2s 5.8s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(30) {
-  animation: jump 0.2s 6s;
+  -webkit-animation: jump 0.2s 6s;
+  -moz-animation: jump 0.2s 6s;
+  -ms-animation: jump 0.2s 6s;
+  -o-animation: jump 0.2s 6s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(31) {
-  animation: jump 0.2s 6.2s;
+  -webkit-animation: jump 0.2s 6.2s;
+  -moz-animation: jump 0.2s 6.2s;
+  -ms-animation: jump 0.2s 6.2s;
+  -o-animation: jump 0.2s 6.2s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(32) {
-  animation: jump 0.2s 6.4s;
+  -webkit-animation: jump 0.2s 6.4s;
+  -moz-animation: jump 0.2s 6.4s;
+  -ms-animation: jump 0.2s 6.4s;
+  -o-animation: jump 0.2s 6.4s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(33) {
-  animation: jump 0.2s 6.6s;
+  -webkit-animation: jump 0.2s 6.6s;
+  -moz-animation: jump 0.2s 6.6s;
+  -ms-animation: jump 0.2s 6.6s;
+  -o-animation: jump 0.2s 6.6s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(34) {
-  animation: jump 0.2s 6.8s;
+  -webkit-animation: jump 0.2s 6.8s;
+  -moz-animation: jump 0.2s 6.8s;
+  -ms-animation: jump 0.2s 6.8s;
+  -o-animation: jump 0.2s 6.8s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(35) {
-  animation: jump 0.2s 7s;
+  -webkit-animation: jump 0.2s 7s;
+  -moz-animation: jump 0.2s 7s;
+  -ms-animation: jump 0.2s 7s;
+  -o-animation: jump 0.2s 7s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(36) {
-  animation: jump 0.2s 7.2s;
+  -webkit-animation: jump 0.2s 7.2s;
+  -moz-animation: jump 0.2s 7.2s;
+  -ms-animation: jump 0.2s 7.2s;
+  -o-animation: jump 0.2s 7.2s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(37) {
-  animation: jump 0.2s 7.4s;
+  -webkit-animation: jump 0.2s 7.4s;
+  -moz-animation: jump 0.2s 7.4s;
+  -ms-animation: jump 0.2s 7.4s;
+  -o-animation: jump 0.2s 7.4s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(38) {
-  animation: jump 0.2s 7.6s;
+  -webkit-animation: jump 0.2s 7.6s;
+  -moz-animation: jump 0.2s 7.6s;
+  -ms-animation: jump 0.2s 7.6s;
+  -o-animation: jump 0.2s 7.6s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(39) {
-  animation: jump 0.2s 7.8s;
+  -webkit-animation: jump 0.2s 7.8s;
+  -moz-animation: jump 0.2s 7.8s;
+  -ms-animation: jump 0.2s 7.8s;
+  -o-animation: jump 0.2s 7.8s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(40) {
-  animation: jump 0.2s 8s;
+  -webkit-animation: jump 0.2s 8s;
+  -moz-animation: jump 0.2s 8s;
+  -ms-animation: jump 0.2s 8s;
+  -o-animation: jump 0.2s 8s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(41) {
-  animation: jump 0.2s 8.2s;
+  -webkit-animation: jump 0.2s 8.2s;
+  -moz-animation: jump 0.2s 8.2s;
+  -ms-animation: jump 0.2s 8.2s;
+  -o-animation: jump 0.2s 8.2s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(42) {
-  animation: jump 0.2s 8.4s;
+  -webkit-animation: jump 0.2s 8.4s;
+  -moz-animation: jump 0.2s 8.4s;
+  -ms-animation: jump 0.2s 8.4s;
+  -o-animation: jump 0.2s 8.4s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(43) {
-  animation: jump 0.2s 8.6s;
+  -webkit-animation: jump 0.2s 8.6s;
+  -moz-animation: jump 0.2s 8.6s;
+  -ms-animation: jump 0.2s 8.6s;
+  -o-animation: jump 0.2s 8.6s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(44) {
-  animation: jump 0.2s 8.8s;
+  -webkit-animation: jump 0.2s 8.8s;
+  -moz-animation: jump 0.2s 8.8s;
+  -ms-animation: jump 0.2s 8.8s;
+  -o-animation: jump 0.2s 8.8s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(45) {
-  animation: jump 0.2s 9s;
+  -webkit-animation: jump 0.2s 9s;
+  -moz-animation: jump 0.2s 9s;
+  -ms-animation: jump 0.2s 9s;
+  -o-animation: jump 0.2s 9s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(46) {
-  animation: jump 0.2s 9.2s;
+  -webkit-animation: jump 0.2s 9.2s;
+  -moz-animation: jump 0.2s 9.2s;
+  -ms-animation: jump 0.2s 9.2s;
+  -o-animation: jump 0.2s 9.2s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(47) {
-  animation: jump 0.2s 9.4s;
+  -webkit-animation: jump 0.2s 9.4s;
+  -moz-animation: jump 0.2s 9.4s;
+  -ms-animation: jump 0.2s 9.4s;
+  -o-animation: jump 0.2s 9.4s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(48) {
-  animation: jump 0.2s 9.6s;
+  -webkit-animation: jump 0.2s 9.6s;
+  -moz-animation: jump 0.2s 9.6s;
+  -ms-animation: jump 0.2s 9.6s;
+  -o-animation: jump 0.2s 9.6s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(49) {
-  animation: jump 0.2s 9.8s;
+  -webkit-animation: jump 0.2s 9.8s;
+  -moz-animation: jump 0.2s 9.8s;
+  -ms-animation: jump 0.2s 9.8s;
+  -o-animation: jump 0.2s 9.8s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(50) {
-  animation: jump 0.2s 10s;
+  -webkit-animation: jump 0.2s 10s;
+  -moz-animation: jump 0.2s 10s;
+  -ms-animation: jump 0.2s 10s;
+  -o-animation: jump 0.2s 10s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(51) {
-  animation: jump 0.2s 10.2s;
+  -webkit-animation: jump 0.2s 10.2s;
+  -moz-animation: jump 0.2s 10.2s;
+  -ms-animation: jump 0.2s 10.2s;
+  -o-animation: jump 0.2s 10.2s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(52) {
-  animation: jump 0.2s 10.4s;
+  -webkit-animation: jump 0.2s 10.4s;
+  -moz-animation: jump 0.2s 10.4s;
+  -ms-animation: jump 0.2s 10.4s;
+  -o-animation: jump 0.2s 10.4s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(53) {
-  animation: jump 0.2s 10.6s;
+  -webkit-animation: jump 0.2s 10.6s;
+  -moz-animation: jump 0.2s 10.6s;
+  -ms-animation: jump 0.2s 10.6s;
+  -o-animation: jump 0.2s 10.6s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(54) {
-  animation: jump 0.2s 10.8s;
+  -webkit-animation: jump 0.2s 10.8s;
+  -moz-animation: jump 0.2s 10.8s;
+  -ms-animation: jump 0.2s 10.8s;
+  -o-animation: jump 0.2s 10.8s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(55) {
-  animation: jump 0.2s 11s;
+  -webkit-animation: jump 0.2s 11s;
+  -moz-animation: jump 0.2s 11s;
+  -ms-animation: jump 0.2s 11s;
+  -o-animation: jump 0.2s 11s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(56) {
-  animation: jump 0.2s 11.2s;
+  -webkit-animation: jump 0.2s 11.2s;
+  -moz-animation: jump 0.2s 11.2s;
+  -ms-animation: jump 0.2s 11.2s;
+  -o-animation: jump 0.2s 11.2s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(57) {
-  animation: jump 0.2s 11.4s;
+  -webkit-animation: jump 0.2s 11.4s;
+  -moz-animation: jump 0.2s 11.4s;
+  -ms-animation: jump 0.2s 11.4s;
+  -o-animation: jump 0.2s 11.4s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(58) {
-  animation: jump 0.2s 11.6s;
+  -webkit-animation: jump 0.2s 11.6s;
+  -moz-animation: jump 0.2s 11.6s;
+  -ms-animation: jump 0.2s 11.6s;
+  -o-animation: jump 0.2s 11.6s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(59) {
-  animation: jump 0.2s 11.8s;
+  -webkit-animation: jump 0.2s 11.8s;
+  -moz-animation: jump 0.2s 11.8s;
+  -ms-animation: jump 0.2s 11.8s;
+  -o-animation: jump 0.2s 11.8s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(60) {
-  animation: jump 0.2s 12s;
+  -webkit-animation: jump 0.2s 12s;
+  -moz-animation: jump 0.2s 12s;
+  -ms-animation: jump 0.2s 12s;
+  -o-animation: jump 0.2s 12s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(61) {
-  animation: jump 0.2s 12.2s;
+  -webkit-animation: jump 0.2s 12.2s;
+  -moz-animation: jump 0.2s 12.2s;
+  -ms-animation: jump 0.2s 12.2s;
+  -o-animation: jump 0.2s 12.2s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(62) {
-  animation: jump 0.2s 12.4s;
+  -webkit-animation: jump 0.2s 12.4s;
+  -moz-animation: jump 0.2s 12.4s;
+  -ms-animation: jump 0.2s 12.4s;
+  -o-animation: jump 0.2s 12.4s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(63) {
-  animation: jump 0.2s 12.6s;
+  -webkit-animation: jump 0.2s 12.6s;
+  -moz-animation: jump 0.2s 12.6s;
+  -ms-animation: jump 0.2s 12.6s;
+  -o-animation: jump 0.2s 12.6s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(64) {
-  animation: jump 0.2s 12.8s;
+  -webkit-animation: jump 0.2s 12.8s;
+  -moz-animation: jump 0.2s 12.8s;
+  -ms-animation: jump 0.2s 12.8s;
+  -o-animation: jump 0.2s 12.8s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(65) {
-  animation: jump 0.2s 13s;
+  -webkit-animation: jump 0.2s 13s;
+  -moz-animation: jump 0.2s 13s;
+  -ms-animation: jump 0.2s 13s;
+  -o-animation: jump 0.2s 13s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(66) {
-  animation: jump 0.2s 13.2s;
+  -webkit-animation: jump 0.2s 13.2s;
+  -moz-animation: jump 0.2s 13.2s;
+  -ms-animation: jump 0.2s 13.2s;
+  -o-animation: jump 0.2s 13.2s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(67) {
-  animation: jump 0.2s 13.4s;
+  -webkit-animation: jump 0.2s 13.4s;
+  -moz-animation: jump 0.2s 13.4s;
+  -ms-animation: jump 0.2s 13.4s;
+  -o-animation: jump 0.2s 13.4s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(68) {
-  animation: jump 0.2s 13.6s;
+  -webkit-animation: jump 0.2s 13.6s;
+  -moz-animation: jump 0.2s 13.6s;
+  -ms-animation: jump 0.2s 13.6s;
+  -o-animation: jump 0.2s 13.6s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(69) {
-  animation: jump 0.2s 13.8s;
+  -webkit-animation: jump 0.2s 13.8s;
+  -moz-animation: jump 0.2s 13.8s;
+  -ms-animation: jump 0.2s 13.8s;
+  -o-animation: jump 0.2s 13.8s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(70) {
-  animation: jump 0.2s 14s;
+  -webkit-animation: jump 0.2s 14s;
+  -moz-animation: jump 0.2s 14s;
+  -ms-animation: jump 0.2s 14s;
+  -o-animation: jump 0.2s 14s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(71) {
-  animation: jump 0.2s 14.2s;
+  -webkit-animation: jump 0.2s 14.2s;
+  -moz-animation: jump 0.2s 14.2s;
+  -ms-animation: jump 0.2s 14.2s;
+  -o-animation: jump 0.2s 14.2s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(72) {
-  animation: jump 0.2s 14.4s;
+  -webkit-animation: jump 0.2s 14.4s;
+  -moz-animation: jump 0.2s 14.4s;
+  -ms-animation: jump 0.2s 14.4s;
+  -o-animation: jump 0.2s 14.4s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(73) {
-  animation: jump 0.2s 14.6s;
+  -webkit-animation: jump 0.2s 14.6s;
+  -moz-animation: jump 0.2s 14.6s;
+  -ms-animation: jump 0.2s 14.6s;
+  -o-animation: jump 0.2s 14.6s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(74) {
-  animation: jump 0.2s 14.8s;
+  -webkit-animation: jump 0.2s 14.8s;
+  -moz-animation: jump 0.2s 14.8s;
+  -ms-animation: jump 0.2s 14.8s;
+  -o-animation: jump 0.2s 14.8s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(75) {
-  animation: jump 0.2s 15s;
+  -webkit-animation: jump 0.2s 15s;
+  -moz-animation: jump 0.2s 15s;
+  -ms-animation: jump 0.2s 15s;
+  -o-animation: jump 0.2s 15s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(76) {
-  animation: jump 0.2s 15.2s;
+  -webkit-animation: jump 0.2s 15.2s;
+  -moz-animation: jump 0.2s 15.2s;
+  -ms-animation: jump 0.2s 15.2s;
+  -o-animation: jump 0.2s 15.2s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(77) {
-  animation: jump 0.2s 15.4s;
+  -webkit-animation: jump 0.2s 15.4s;
+  -moz-animation: jump 0.2s 15.4s;
+  -ms-animation: jump 0.2s 15.4s;
+  -o-animation: jump 0.2s 15.4s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(78) {
-  animation: jump 0.2s 15.6s;
+  -webkit-animation: jump 0.2s 15.6s;
+  -moz-animation: jump 0.2s 15.6s;
+  -ms-animation: jump 0.2s 15.6s;
+  -o-animation: jump 0.2s 15.6s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(79) {
-  animation: jump 0.2s 15.8s;
+  -webkit-animation: jump 0.2s 15.8s;
+  -moz-animation: jump 0.2s 15.8s;
+  -ms-animation: jump 0.2s 15.8s;
+  -o-animation: jump 0.2s 15.8s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(80) {
-  animation: jump 0.2s 16s;
+  -webkit-animation: jump 0.2s 16s;
+  -moz-animation: jump 0.2s 16s;
+  -ms-animation: jump 0.2s 16s;
+  -o-animation: jump 0.2s 16s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(81) {
-  animation: jump 0.2s 16.2s;
+  -webkit-animation: jump 0.2s 16.2s;
+  -moz-animation: jump 0.2s 16.2s;
+  -ms-animation: jump 0.2s 16.2s;
+  -o-animation: jump 0.2s 16.2s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(82) {
-  animation: jump 0.2s 16.4s;
+  -webkit-animation: jump 0.2s 16.4s;
+  -moz-animation: jump 0.2s 16.4s;
+  -ms-animation: jump 0.2s 16.4s;
+  -o-animation: jump 0.2s 16.4s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(83) {
-  animation: jump 0.2s 16.6s;
+  -webkit-animation: jump 0.2s 16.6s;
+  -moz-animation: jump 0.2s 16.6s;
+  -ms-animation: jump 0.2s 16.6s;
+  -o-animation: jump 0.2s 16.6s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(84) {
-  animation: jump 0.2s 16.8s;
+  -webkit-animation: jump 0.2s 16.8s;
+  -moz-animation: jump 0.2s 16.8s;
+  -ms-animation: jump 0.2s 16.8s;
+  -o-animation: jump 0.2s 16.8s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(85) {
-  animation: jump 0.2s 17s;
+  -webkit-animation: jump 0.2s 17s;
+  -moz-animation: jump 0.2s 17s;
+  -ms-animation: jump 0.2s 17s;
+  -o-animation: jump 0.2s 17s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(86) {
-  animation: jump 0.2s 17.2s;
+  -webkit-animation: jump 0.2s 17.2s;
+  -moz-animation: jump 0.2s 17.2s;
+  -ms-animation: jump 0.2s 17.2s;
+  -o-animation: jump 0.2s 17.2s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(87) {
-  animation: jump 0.2s 17.4s;
+  -webkit-animation: jump 0.2s 17.4s;
+  -moz-animation: jump 0.2s 17.4s;
+  -ms-animation: jump 0.2s 17.4s;
+  -o-animation: jump 0.2s 17.4s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(88) {
-  animation: jump 0.2s 17.6s;
+  -webkit-animation: jump 0.2s 17.6s;
+  -moz-animation: jump 0.2s 17.6s;
+  -ms-animation: jump 0.2s 17.6s;
+  -o-animation: jump 0.2s 17.6s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(89) {
-  animation: jump 0.2s 17.8s;
+  -webkit-animation: jump 0.2s 17.8s;
+  -moz-animation: jump 0.2s 17.8s;
+  -ms-animation: jump 0.2s 17.8s;
+  -o-animation: jump 0.2s 17.8s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(90) {
-  animation: jump 0.2s 18s;
+  -webkit-animation: jump 0.2s 18s;
+  -moz-animation: jump 0.2s 18s;
+  -ms-animation: jump 0.2s 18s;
+  -o-animation: jump 0.2s 18s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(91) {
-  animation: jump 0.2s 18.2s;
+  -webkit-animation: jump 0.2s 18.2s;
+  -moz-animation: jump 0.2s 18.2s;
+  -ms-animation: jump 0.2s 18.2s;
+  -o-animation: jump 0.2s 18.2s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(92) {
-  animation: jump 0.2s 18.4s;
+  -webkit-animation: jump 0.2s 18.4s;
+  -moz-animation: jump 0.2s 18.4s;
+  -ms-animation: jump 0.2s 18.4s;
+  -o-animation: jump 0.2s 18.4s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(93) {
-  animation: jump 0.2s 18.6s;
+  -webkit-animation: jump 0.2s 18.6s;
+  -moz-animation: jump 0.2s 18.6s;
+  -ms-animation: jump 0.2s 18.6s;
+  -o-animation: jump 0.2s 18.6s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(94) {
-  animation: jump 0.2s 18.8s;
+  -webkit-animation: jump 0.2s 18.8s;
+  -moz-animation: jump 0.2s 18.8s;
+  -ms-animation: jump 0.2s 18.8s;
+  -o-animation: jump 0.2s 18.8s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(95) {
-  animation: jump 0.2s 19s;
+  -webkit-animation: jump 0.2s 19s;
+  -moz-animation: jump 0.2s 19s;
+  -ms-animation: jump 0.2s 19s;
+  -o-animation: jump 0.2s 19s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(96) {
-  animation: jump 0.2s 19.2s;
+  -webkit-animation: jump 0.2s 19.2s;
+  -moz-animation: jump 0.2s 19.2s;
+  -ms-animation: jump 0.2s 19.2s;
+  -o-animation: jump 0.2s 19.2s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(97) {
-  animation: jump 0.2s 19.4s;
+  -webkit-animation: jump 0.2s 19.4s;
+  -moz-animation: jump 0.2s 19.4s;
+  -ms-animation: jump 0.2s 19.4s;
+  -o-animation: jump 0.2s 19.4s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(98) {
-  animation: jump 0.2s 19.6s;
+  -webkit-animation: jump 0.2s 19.6s;
+  -moz-animation: jump 0.2s 19.6s;
+  -ms-animation: jump 0.2s 19.6s;
+  -o-animation: jump 0.2s 19.6s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(99) {
-  animation: jump 0.2s 19.8s;
+  -webkit-animation: jump 0.2s 19.8s;
+  -moz-animation: jump 0.2s 19.8s;
+  -ms-animation: jump 0.2s 19.8s;
+  -o-animation: jump 0.2s 19.8s;
 }
 
 .jump-text:hover .jump-letter:nth-of-type(100) {
-  animation: jump 0.2s 20s;
+  -webkit-animation: jump 0.2s 20s;
+  -moz-animation: jump 0.2s 20s;
+  -ms-animation: jump 0.2s 20s;
+  -o-animation: jump 0.2s 20s;
 }
 
 @-webkit-keyframes jump {
+  0% {
+    -webkit-transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-0.5em);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+  }
+}
+@keyframes jump {
   0% {
     transform: translateY(0);
   }
