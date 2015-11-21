@@ -1,4 +1,4 @@
-nav, section, article, header {
+nav, section, article, header, footer {
     display: block;
 }
 
@@ -163,4 +163,10 @@ article a:link {
 article a:hover {
     outline: 1px solid blue;
     border: 0;
+}
+
+article blockquote {
+    background-color: beige;
+    text-align: justify;
+    padding: 0.1em;
 }
