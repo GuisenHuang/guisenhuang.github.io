@@ -137,4 +137,5 @@ article a:link {
 
 article a:hover {
     outline: 1px solid blue;
+    border: 0;
 }
