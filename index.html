@@ -78,6 +78,7 @@
         <p>使用<a href='https://jschr.github.io/textillate/'> Textillate </a>做出的 CSS 文字动画效果很赞，但是它依赖三个库: <a href='http://jquery.com/'> jQuery </a>, <a href='http://daneden.me/animate/'> animate.css </a>和<a href='http://letteringjs.com/'> lettering.js </a>如果仅是想在在博客中一两处用一下炫酷的效果，而又不必要用到这些库的其他功能，那么使用原生 Javascript 写一个也不是很麻烦。</p>
         <p>假设有这样一段代码: </p><pre><code class='language-html'>&lt;p class='jump-text'&gt;The quick brown fox jumps over the lazy dog&lt;/p&gt;</code></pre><p>现在要实现这样的效果: 当鼠标悬浮上去的时候，每个文字相继地跳动。</p>
         <p>由于要对每一个字符应用不同的样式，不得不把每一个字符包装在一个容器内，实现起来比较繁琐。想要看看效果如何吗？请把鼠标放在本页的标题上吧 :). 具体的代码和演示请移步<a href='http://codepen.io/GuisenHuang/pen/WQWEwL'>我的 Codepen</a>.</p>
+        <p>补充: Mozilla Firefox 是个奇葩, 在 span 上应用 transform 时要在 span 上应用 <pre><code class='language-css'>display: inline-block;</code></pre></p>
     </article>
     <script src='script/jumpText.js'></script>
     <script src='script/makeMeSpin.js'></script>
