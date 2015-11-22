@@ -113,7 +113,7 @@ header a:hover {
 
 /* setup the style of article*/
 article {
-    font-family: "Microsoft Yahei", 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-family: 'lato', "Microsoft Yahei", 'Helvetica Neue',Helvetica,Arial,sans-serif;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
@@ -166,7 +166,7 @@ article a:link {
 
 article a:hover {
     outline: 1px solid blue;
-    border: 0;
+    border-color: transparent;
 }
 
 article blockquote {
