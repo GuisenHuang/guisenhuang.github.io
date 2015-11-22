@@ -41,6 +41,7 @@ header h1 {
     font-family: serif;
     font-weight: normal;
     font-size: 2em;
+    letter-spacing: 0.06em;
 }
 
 header h1:hover {
@@ -166,7 +167,7 @@ article a:hover {
 }
 
 article blockquote {
-    background-color: beige;
+    background-color: #f5f5dc;
     text-align: justify;
     padding: 0.1em;
 }
