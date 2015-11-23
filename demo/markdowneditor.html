@@ -1,0 +1,62 @@
+<!doctype html>
+<html manifest="markdowneditor.appcache">
+<!--<html>-->
+<head>
+    <meta charset='utf-8'>
+    <title>a offline markdown editor</title>
+    <link href='style.css' rel='stylesheet' >
+<!--[if lt IE 9]>
+<script src="../script/html5.js"></script>
+<![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="../favicon.ico">
+</head>
+<body>
+    <div ng-app='MarkdownEditorApp' ng-controller='MarkdownEditor'>
+      <textarea ng-model='markdown' ng-change='settext()' placeholder="markdown source code goes hear"></textarea>
+      <div ng-bind-html='preview'></div>
+      <div class='html-code'>{{markup}}</div>
+      <a href='{{downloadURL}}' download={{filename}}>download html</a>
+    </div>
+    <script src="marked.js"></script>
+    <script src='//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.14/angular.min.js'></script>
+    <script src='angular-sanitize.min.js'></script>
+    <script>
+angular.module('MarkdownEditorApp', ['ngSanitize']).config(['$compileProvider', function( $compileProvider ) {
+// add the blob protocol to the white list
+    $compileProvider.aHrefSanitizationWhitelist(/^\s*blob:/);
+}]).controller('MarkdownEditor', ['$scope', '$window', function($scope, $window) {
+    var text = localStorage.getItem('markdownText');
+    $scope.markup = '';
+    $scope.settext = function () {
+        // text : markdown source code
+        var text = $scope.markdown;
+        var filename;
+        // mark : html source code
+        // use marked.js, the most popular markdown parser.
+        var mark = marked(text).replace(/\sid=\".*\"/g, '');
+        console.log(mark);
+        var myBlob = new Blob([mark], {type : 'text/html'});
+        $scope.downloadURL = $window.URL.createObjectURL(myBlob);
+
+        if (filename = /\w(.*?)$/g.exec(text)) {
+            $scope.filename = filename[0] + '.html';
+        } else {
+            $scope.filename = 'null.html';
+        }
+        $scope.preview = mark;
+        $scope.markup = mark;
+        localStorage.setItem('markdownText', text);
+
+    };
+    if (text) {
+        $scope.markdown = text;
+        $scope.settext();
+    }
+    //$watch does not catch the backspace, use ng-change instead.
+    //          $scope.$watch('markdown', settext);
+}]);
+                               
+    </script>
+</body>
+</html>
