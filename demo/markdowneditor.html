@@ -35,11 +35,10 @@ angular.module('MarkdownEditorApp', ['ngSanitize']).config(['$compileProvider', 
         // mark : html source code
         // use marked.js, the most popular markdown parser.
         var mark = marked(text).replace(/\sid=\".*\"/g, '');
-        console.log(mark);
         var myBlob = new Blob([mark], {type : 'text/html'});
         $scope.downloadURL = $window.URL.createObjectURL(myBlob);
-
-        if (filename = /\w(.*?)$/g.exec(text)) {
+        filename = /\w(.*?)$/g.exec(text);
+        if (filename) {
             $scope.filename = filename[0] + '.html';
         } else {
             $scope.filename = 'null.html';
