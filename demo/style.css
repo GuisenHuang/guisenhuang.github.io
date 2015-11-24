@@ -18,6 +18,14 @@ textarea, div[ng-bind-html] {
 /*    position: absolute;*/
 }
 
+textarea {
+    font-family: menlo, consolas, monospace;
+}
+
+div[ng-bind-html] {
+    font-family: "Microsoft JYahei","Microsoft Yahei", 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
 div.html-code {
     margin: 509px auto 1em auto;
     min-height: 2em;
